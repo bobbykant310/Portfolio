@@ -449,14 +449,54 @@ p {
 .contact-form .btn:hover {
   background-color: #00cce7;
 }
+/* 📱 MOBILE RESPONSIVE */
+@media(max-width: 768px){
 
-@media(max-width:768px){
-  header nav ul{display:block;text-align:center;}
-  .intro,.about,.services-container,.projects-container,.contact-content{
-     flex-direction:column;
-     text-align:center;
-     gap:20px;
+  header nav ul{
+    display:block;
+    text-align:center;
+  }
+
+  .intro{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+  }
+
+  .intro-text{
+    width:100%;
+  }
+
+  .intro-image img{
+    width:250px;
+  }
+
+  .about{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+  }
+
+  .about-image img{
+    width:250px;
+  }
+
+  .services-container{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .projects-container{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .contact-content{
+    flex-direction:column;
+    gap:20px;
   }
 }
+
+
 
 
