@@ -44,7 +44,8 @@ nav ul li a {
 }
 
 .intro-text {
-  max-width: 600px;
+  width: 100%;
+max-width: 600px;
 }
 
 .intro-text h1 {
@@ -123,7 +124,9 @@ nav ul li a {
 }
 
 .about-text {
-  max-width: 600px;
+  width: 100%;
+max-width: 600px;
+
 }
 
 .about-text h2 {
@@ -446,3 +449,4 @@ p {
 .contact-form .btn:hover {
   background-color: #00cce7;
 }
+
