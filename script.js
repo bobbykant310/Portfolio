@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const words = ["Web Developer", "Web Designer", "Frontend Developer"];
+  const words = ["Graphic Designer", "Web Designer", "Web Developer"];
   let wordIndex = 0;
   let charIndex = 0;
   let currentWord = '';
@@ -52,3 +52,4 @@ circles.forEach(circle => {
     let percent = circle.getAttribute('data-percent');
     circle.style.setProperty('--percent', percent);
 });
+
